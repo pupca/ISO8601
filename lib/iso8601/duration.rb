@@ -287,6 +287,7 @@ module ISO8601
     end
 
     def compare_bases(other)
+      puts "aaaaaaa"
       puts base.inspect
       puts other.inspect
       fail ISO8601::Errors::DurationBaseError, other if base != other.base
